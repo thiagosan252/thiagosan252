@@ -2,8 +2,7 @@ name: Update badges
 
 on:
   schedule:
-    # Runs at 2am UTC
-    - cron: "0 2 * * *"
+    - cron: "0 1 * * *"
 jobs:
   update-readme:
     name: Update Readme with badges
@@ -12,4 +11,4 @@ jobs:
       - name: Badges - Readme
         uses: pemtajo/badge-readme@main
         with:       
-          CREDLY_USER: thiago-santana.846550b0
+          CREDLY_USER: thiago.santana
